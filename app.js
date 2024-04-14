@@ -32,6 +32,7 @@ initializeServer();
 
 //API 1
 app.get("/", async (request,response) => {
+ 
   
  const todoRequest = `
         SELECT * 
@@ -44,3 +45,15 @@ app.get("/", async (request,response) => {
 });
 
 //API 2
+app.get("/category/Backpacks/", async (request, response) => {
+  const todoRequest = `
+      SELECT * 
+      FROM products 
+      WHERE category = 'backpacks';
+  `;
+ 
+  const Backpacks = await db.all(todoRequest);
+  console.log(Backpacks);
+  response.send({ Backpacks });
+});
+

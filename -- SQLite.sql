@@ -16,3 +16,13 @@
 --CREATE TABLE products (id INTEGER,title VARCHAR(200),descri VARCHAR(1000),price INTEGER,img VARCHAR(1000),category VARCHAR(200));
 
 --PRAGMA TABLE_INFO(products);
+
+--INSERT INTO products (id, title, descri, price, img, category)
+--VALUES (17, "The Brown Metro Movers Backpack", "Full Grain Leather Backpack Men Travel Backpack Cool Backpacks, Unihandmade", 4786, "https://imagetolink.com/ib/VvlrHlfwsB.png","backpacks"),
+--(18, "The Metro Movers Black Backpack", "Travel backpack carry on travel backpack essentials traveling backpacks carry on travel backpacks carry on travel backpack essential travel backpack for woman travel aesthetic travel", 4500, "https://imagetolink.com/ib/xDOcHtjfDD.png","backpacks"),
+--(19, "The Grey Metro Movers Backpack", "Full Grain Leather, Cotton Lining, Brass Hardware-Inside one zipper pocket, one laptop sleeve", 3600, "https://imagetolink.com/ib/9YdWDm4uWx.png","backpacks"),
+--(20, "The Metro Movers Black Backpack", "Full Grain Leather Backpack Men Travel Backpack Cool Backpacks – Unihandmade ",4700, "https://imagetolink.com/ib/sBuwCLDr3T.png","backpacks"),
+--(21, "Retro Solid Green Backpack", "Travel backpack carry on travel backpack essentials traveling backpacks carry on travel backpacks carry on travel backpack essential travel backpack for woman travel aesthetic travel", 4640, "https://www.bygoods.com/media/catalog/product/cache/1/image/800x/1dd3c1054c06760f44f47a9755af505d/t/b/tb2ex1devxxxxxtxpxxxxxxxxxx-775817107_1.jpg","backpacks"),
+--(22, "The Red Metro Movers Backpack", "Full Grain Leather, Cotton Lining, Brass Hardware-Inside one zipper pocket, one laptop sleeve", 4500, "https://tse3.mm.bing.net/th/id/OIP.A1nkIyKNk9vlnOLMpSf5aAHaHa?pid=ImgDet&w=207&h=207&c=7","backpacks"),
+--(23, "The Metro Movers Black Backpack", "Travel backpack carry on travel backpack essentials traveling backpacks carry on travel backpacks carry on travel backpack essential travel backpack for woman travel aesthetic travel", 3900, "https://i.pinimg.com/736x/03/c7/b0/03c7b09347143ab8a919602e190e4983.jpg","backpacks"),
+--(24, "Retro Solid Brown Backpack", "Full Grain Leather Backpack Men Travel Backpack Cool Backpacks – Unihandmade",4500, "https://cdn.shopify.com/s/files/1/1126/9768/products/1_6416795a-5809-4928-9736-bf195fa0ab86_grande.jpg?v=1551476040","backpacks");
